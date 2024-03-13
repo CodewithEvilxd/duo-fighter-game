@@ -1,0 +1,52 @@
+<link rel="stylesheet" href="style.css">
+
+<div class="container">
+    <div id="game">
+        <canvas id="canvas"></canvas>
+        <div id="health-bars">
+            <div class="health-label">
+                <strong>Player 1</strong><br><span id="p1-kills">0</span> KO(s)
+            </div>
+            <div class="health">
+                <span class="fill" id="p1-health"></span>
+            </div>
+            <div class="health">
+                <span class="fill" id="p2-health"></span>
+            </div>
+            <div class="health-label">
+                <strong>Player 2</strong><br><span id="p2-kills">0</span> KO(s)
+            </div>
+        </div>
+    </div>
+    <div id="controls">
+        <div id="p1-ctrls">
+            <div class="move" id="p1-left"><span class="arrow-left"></span></div>
+            <div class="move" id="p1-right"><span class="arrow-right"></span></div>
+            <div class="a-btn" id="p1-up">A</div>
+            <div class="b-btn" id="p1-atk">B</div>
+        </div>
+        <div id="p2-ctrls">
+            <div class="move" id="p2-left"><span class="arrow-left"></span></div>
+            <div class="move" id="p2-right"><span class="arrow-right"></span></div>
+            <div class="a-btn" id="p2-up">A</div>
+            <div class="b-btn" id="p2-atk">B</div>
+        </div>
+    </div>
+    <div id="keys">
+        <div id="p1-keys">
+            <kbd>A</kbd>
+            <kbd>D</kbd>
+            <kbd>W</kbd>
+            <kbd>Shift</kbd>
+        </div>
+        <div id="p2-keys">
+            <kbd>&#8592;</kbd>
+            <kbd>&#8594;</kbd>
+            <kbd>&#8593;</kbd>
+            <kbd>;</kbd>
+        </div>
+    </div>
+</div>
+
+<script src="script.js">
+</script>
